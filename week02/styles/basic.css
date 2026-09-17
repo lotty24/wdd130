@@ -19,5 +19,34 @@ img {
 }
 p {
     padding: 10px;
-    
+}
+main {
+    max-width: 840px;
+}
+aside {
+    width: 20rem;
+    background-color: #eee;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 10px;
+    color: #333;
+    margin-top: 1rem;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    padding: 0;
+}
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid white;
+    text-align: center;
 }
